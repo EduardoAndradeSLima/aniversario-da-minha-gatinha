@@ -402,17 +402,6 @@
             transition: opacity 1.7s ease;
         }
 
-        /* Partículas */
-        .final-glitter {
-            position: absolute;
-            inset: 0;
-            background: url('https://i.imgur.com/6cJPrYV.png');
-            background-size: cover;
-            opacity: 0.25;
-            animation: glitterMove 20s linear infinite;
-            z-index: 0;
-        }
-
         @keyframes glitterMove {
             from {
                 transform: translateY(0);
