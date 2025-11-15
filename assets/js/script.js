@@ -133,18 +133,6 @@
                 const photos = document.querySelectorAll(".final-photo");
                 let index = 0;
 
-                function showPhoto(i) {
-                    photos.forEach((p, idx) => {
-                        if (idx === i) {
-                            p.style.opacity = "1";
-                            p.style.filter = "blur(5px) brightness(1)";
-                        } else {
-                            p.style.opacity = "0";
-                            p.style.filter = "blur(25px) brightness(0.8)";
-                        }
-                    });
-                }
-
                 showPhoto(0);
 
                 setInterval(() => {
