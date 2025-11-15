@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Feliz Aniversário</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <div class="lp" id="lp">
+        <div class="hero" id="hero">
+            <div class="hero-left">
+                <h1>Hoje é o seu dia.<br><span style="color:var(--muted);font-weight:600">Mas primeiro, uma
+                        coisinha...</span></h1>
+                <p class="lead">Se algo estiver meio brega, finge que era a intenção. Clica abaixo e lê a minha carta.
+                </p>
+                <button class="btn" id="startBtn">Ler minha carta</button>
+            </div>
+
+            <div class="cake-scene">
+                <div class="stars">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+
+                <div class="table"></div>
+
+                <div class="cake">
+                    <div class="cake-layer layer-bottom">
+                        <div class="frosting">
+                            <div class="sprinkles">
+                                <div class="sprinkle"></div>
+                                <div class="sprinkle"></div>
+                                <div class="sprinkle"></div>
+                                <div class="sprinkle"></div>
+                                <div class="sprinkle"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cake-layer layer-top">
+                        <div class="frosting"></div>
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carta -->
+        <div class="section" id="cartaSection">
+            <div class="carta">
+                <div class="typewriter" id="typewriter"></div>
+            </div>
+        </div>
+
+        <!-- Galeria -->
+        <div class="section" id="gallerySection">
+            <h3 style="margin:8px 0 0 0;color:#fff">Algumas fotos nossas</h3>
+            <div class="gallery" id="gallery">
+                <!-- placeholders: substitua background-image com suas fotos -->
+                <div class="photo" style="background-image:url('https://picsum.photos/seed/1/800/600')">
+                    <div class="cap">Nós dois fingindo pose</div>
+                </div>
+                <div class="photo" style="background-image:url('https://picsum.photos/seed/2/800/600')">
+                    <div class="cap">Seu sorriso</div>
+                </div>
+                <div class="photo" style="background-image:url('https://picsum.photos/seed/3/800/600')">
+                    <div class="cap">Melhor viagem</div>
+                </div>
+                <div class="photo" style="background-image:url('https://picsum.photos/seed/4/800/600')">
+                    <div class="cap">Café e caos</div>
+                </div>
+                <div class="photo" style="background-image:url('https://picsum.photos/seed/5/800/600')">
+                    <div class="cap">Só nós</div>
+                </div>
+                <div class="photo" style="background-image:url('https://picsum.photos/seed/6/800/600')">
+                    <div class="cap">Favorita</div>
+                </div>
+            </div>
+
+            <!-- micro interação -->
+            <div class="shy-wrap">
+                <button class="shy" id="shyBtn">Clique pra ver a última surpresa</button>
+            </div>
+        </div>
+
+        <!-- final -->
+        <div class="section" id="finalSection">
+            <div class="final" id="finalText" style="display:none">
+                <div style="font-size:26px;font-weight:800;margin-bottom:8px">Feliz aniversário ❤️</div>
+                <div style="opacity:.95;margin-bottom:12px">Obrigado por existir perto de mim. Te amo — e sim, eu contei
+                    isso no site.</div>
+                <div style="font-size:12px;color:rgba(255,255,255,0.75)">Se algo quebrou, confia: foi de propósito.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js">
+    </script>
+    <div id="grand-finale-overlay">
+        <div class="final-glitter"></div>
+
+        <div class="final-center">
+            <h1 id="final-name"></h1>
+            <p id="final-msg"></p>
+        </div>
+
+        <div id="final-photo-container">
+            <img class="final-photo" src="assets/img/Imagem do WhatsApp de 2025-11-09 à(s) 16.42.03_c96b95e9.jpg" alt="">
+            <img class="final-photo" src="assets/img/Imagem do WhatsApp de 2025-11-15 à(s) 13.50.29_44987da4.jpg" alt="">
+            <img class="final-photo" src="assets/img/Imagem do WhatsApp de 2025-11-15 à(s) 13.50.29_ad3be329.jpg" alt="">
+            <img class="final-photo" src="assets/img/Imagem do WhatsApp de 2025-11-15 à(s) 13.50.30_31fb5240.jpg" alt="">
+            <img class="final-photo" src="assets/img/Imagem do WhatsApp de 2025-11-15 à(s) 13.50.30_4b9504e0.jpg" alt="">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
