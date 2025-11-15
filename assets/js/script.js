@@ -128,21 +128,6 @@
             setTimeout(() => msgEl.innerHTML = finalMessage, 1800);
             setTimeout(() => msgEl.style.opacity = "1", 2000);
 
-            // foto entra depois — agora é slideshow
-            setTimeout(() => {
-                const photos = document.querySelectorAll(".final-photo");
-                let index = 0;
-
-                showPhoto(0);
-
-                setInterval(() => {
-                    index = (index + 1) % photos.length;
-                    showPhoto(index);
-                }, 4000);
-
-            }, 3200);
-
-
             setInterval(() => {
                 const h = document.createElement("div");
                 h.className = "heart";
