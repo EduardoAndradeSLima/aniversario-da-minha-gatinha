@@ -112,7 +112,6 @@
             const overlay = document.getElementById("grand-finale-overlay");
             const nameEl = document.getElementById("final-name");
             const msgEl = document.getElementById("final-msg");
-            const photo = document.getElementById("final-photo");
 
             overlay.classList.add("active");
 
